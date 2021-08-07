@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background: $light-gray;
+    font-weight: bold;
+    line-height: 2rem;
+  }
+  
+  footer a {
+    display: flex;
+    align-items: center;
+  }
