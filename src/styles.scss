@@ -30,7 +30,7 @@ p {
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
+  height: 4em;
   display: flex;
   align-items: center;
   background-color: #1976d2;
@@ -281,3 +281,5 @@ svg#clouds {
     visibility: hidden;
   }
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
